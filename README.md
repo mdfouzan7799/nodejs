@@ -2,21 +2,24 @@
 nodejs
 ](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04
 
-
 To get this version, you can use the apt package manager. Refresh your local package index first:
 
 sudo apt update
+
 Then install Node.js:
 
 sudo apt install nodejs
+
 Check that the install was successful by querying node for its version number:
 
 node -v
 Output
 v10.19.0
+
 If the package in the repositories suits your needs, this is all you need to do to get set up with Node.js. In most cases, you’ll also want to also install npm, the Node.js package manager. You can do this by installing the npm package with apt:
 
 sudo apt install npm
+
 This allows you to install modules and packages to use with Node.js.
 
 At this point, you have successfully installed Node.js and npm using apt and the default Ubuntu software repositories. The next section will show how to use an alternate repository to install different versions of Node.js.
